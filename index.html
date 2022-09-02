@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Space</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading borders-radius">BlogSpace</h1>
+            <form class="borders-radius">
+                <label for="title-input">Title</label>
+                <input type="text"  id="title-input" required>
+                <label for="body-input">Body</label>
+                <textarea  id="body-input" cols="30" rows="10" required></textarea>
+                <button class="borders-radius" id="add-post">Add Post</button>
+            </form>
+            <div id="post-list"></div>
+        </div>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
